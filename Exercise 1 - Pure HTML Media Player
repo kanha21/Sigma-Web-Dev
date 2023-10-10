@@ -1,0 +1,53 @@
+<!-- You are given 12 files; 6 audio and 6 video.
+    Design a website using HTML only which shows these 12 files.
+    1.mp3, 2.mp3 .... 6.mp3
+    1.mp4, 2.mp4 .... 6.mp4 -->
+
+<!DOCTYPE html>
+<html lang="en" style="background-color: thistle;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pure HTML Media Player</title>
+</head>
+
+<body>
+    <header class="mediaplayer"
+        style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; right: 10px; color: rgb(75, 16, 16); background-color: #b784b7;">
+        <h1>
+            <center> Media Player </center>
+        </h1>
+    </header>
+
+    <main>
+        <center>
+            <h1 class="video" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; right: 10px; color: rgb(75, 16, 16); background-color: #b784b7;">Video
+            </h1>
+        </center>
+        <video src="1.mp4" height="405" controls poster="1.jpg"></video>
+        <video src="2.mp4" height="405" controls poster="2.jpg"></video>
+        <video src="3.mp4" height="405" controls poster="3.jpg"></video>
+        <video src="4.mp4" height="405" controls poster="4.jpg"></video>
+        <video src="5.mp4" height="405" controls poster="5.jpeg"></video>
+        <video src="6.mp4" height="405" controls poster="6.jpg"></video>
+
+        <center>
+            <h1 class="audio" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; right: 10px; color: rgb(75, 16, 16); background-color: #b784b7;">Audio
+            </h1>
+        </center>
+        <audio src="1.mp3" controls></audio>
+        <audio src="2.mp3" controls></audio>
+        <audio src="3.mp3" controls></audio>
+        <audio src="4.mp3" controls></audio>
+        <audio src="5.mp3" controls></audio>
+        <audio src="6.mp3" controls></audio>
+    </main>
+    <footer>
+        <h3>
+            <center>Copyright © 2023 CWH | All rights reserved</center>
+        </h3>
+    </footer>
+</body>
+
+</html>
